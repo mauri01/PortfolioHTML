@@ -1,0 +1,113 @@
+/******* BODY *****/
+
+*{
+	-moz-box-sizing: bordex-box;
+	box-sizing: bordex-box;
+}
+
+html,body{
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 16px;
+	background-color: #F2F0DF;
+	padding: 0;
+	margin: 0;
+}
+
+/************MENU***************/
+
+#menu-container{
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+	background-color: #222;
+
+}
+
+#menu-container #logo-menu{
+	padding-top: 20px;
+}
+
+#menu-container #logo-menu #logo-name{
+	color: #eee;
+	font-size: 14px;
+	padding-top: 10px;
+
+}
+
+#menu-container #logo-menu #logo-desc{
+color: #bbb;
+font-size: 10px;
+padding-top: 10px;
+padding-bottom: 20px;
+
+}
+#menu-container #menu{
+	border-top: solid 1px #bbb;
+	border-bottom: solid 1px #444;
+	margin: 0;
+	padding: 40px 0 40px 0;
+
+	 
+}
+
+#menu-container #menu li{
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+}
+
+#menu-container #menu li a{
+	color: #FCB95B;
+	text-decoration: none;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#menu-container #menu li a:hover{
+	color: #F5DFCE;
+	
+}
+
+/*******MAIN CONTAINER****/
+
+#main-container{
+	display: inline-block;
+	margin-left: 200px;
+	width: 2600px;
+}
+
+#main-container .seccion{
+	border-right: dotted 1px #ccc ;
+width: 500px;	
+height: 600px;
+padding: 10px;
+display: inline-block;
+vertical-align: top;
+}
+
+#main-container .seccion h2{
+	border-bottom: solid 1px #ccc;
+	padding: 20px 20px;
+}
+
+#seccionInicio{
+	text-align: center;
+	padding-top: 130px !important;
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+	width: 450px !important;
+	/*
+	overflow: hidden;
+	overflow-y:scroll;
+	*/
+	box-sizing: bordex-box;
+}
+
+#seccionInicio #iniciodesc{
+	color: #444;
+	font-style: italic;
+	font-size: 18px;
+
+}
