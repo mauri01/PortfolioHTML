@@ -111,3 +111,21 @@ vertical-align: top;
 	font-size: 18px;
 
 }
+
+/* SECCION TRABAJO    */
+
+
+#slider-mini img{
+	display: none;
+	width: 100%;
+
+}
+
+#slide-mini img:nth-child(1){
+	display: block;
+}
+
+#desc-trabajo{
+	padding-top: 10px;
+}
+

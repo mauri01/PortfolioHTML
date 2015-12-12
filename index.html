@@ -31,12 +31,28 @@
 		<div id="iniciodesc">sadasdasdasd
 		asdasdasdas
 		asdasdasd</div>
-	</div> <!--seccion -->
+	</div> 
+	
+	<!--seccion de Trabajo -->
+	
 	<div class="seccion" id="seccionTrabajo">
-		<h2>SeccionTrabajo</h2>
-	</div> <!--seccion -->	
+	<h2>TRABAJO</h2>
+		<div id="slider-mini">
+				<img src="img/slide1.jpg" alt="">
+				<img src="img/slide2.jpg" alt="">
+				<img src="img/slide3.jpg" alt="">	
+		</div>	
+		<div id="desc-trabajo">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, accusantium, quaerat unde esse nam voluptatum rerum labore deleniti blanditiis neque consequatur, laudantium cumque a. Ab nisi cumque fugit vero expedita.
+			
+		</div>
+	</div> 
+
+	<!--seccion -->	
+	
 	<div class="seccion" id="seccionQuien">
 		<h2>QuienSOy</h2>
+
 	</div> <!--seccion -->	
 	<div class="seccion" id="contacto">
 		<h2>Contacto</h2>
@@ -44,6 +60,16 @@
 	
 
 </div> <!-- main container -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.slider.js"></script>
+
+<script>
+	$(document).on("ready", function(){
+
+	$("#slider-mini").slider({time: 5000});
+});
+
+</script>
 
 
 	
